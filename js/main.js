@@ -1,1 +1,1 @@
-window.alert("Press OK to continue");
+document.write("Press OK to continue");

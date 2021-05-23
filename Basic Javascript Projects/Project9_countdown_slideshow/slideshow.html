@@ -3,7 +3,7 @@
     <head>
         <meta name="viewport" content="width-device-width, initial-scale=1" charset="utf-8">
         <title>Grand Canyon Slideshow</title>
-        <script src="js/slideshow.js"></script>
+        <script src="js/slideshow.js" defer></script>
         <link rel="stylesheet" type="text/css" href="css/slideshow.css">
     </head>
     
@@ -15,25 +15,19 @@
         <!-- Full-width images with number -->
         <div class="mySlides fade">
             <div class="numbertext">1 / 4</div>
-            <img src="slideshow_images/image1.jpg" style="width:100%">
-            <div class="text">The Grand Canyon</div>
-        </div>
-        
-        <div class="mySlides fade">
-            <div class="numbertext">2 / 4</div>
-            <img src="slideshow_images/image2.jpg" style="width:100%">
+            <img src="slideshow_images/image1.jpg" style="width:1000px">
             <div class="text">The Grand Canyon</div>
         </div>
         
         <div class="mySlides fade">
             <div class="numbertext">3 / 4</div>
-            <img src="slideshow_images/image3.jpg" style="width:100%">
+            <img src="slideshow_images/image3.jpg" style="width:1000px">
             <div class="text">The Grand Canyon</div>
         </div>
 
         <div class="mySlides fade">
             <div class="numbertext">4 / 4</div>
-            <img src="slideshow_images/image4.jpg" style="width:100%">
+            <img src="slideshow_images/image4.jpg" style="width:1000px">
             <div class="text">The Grand Canyon</div>
         </div>
         
@@ -46,7 +40,6 @@
     <!-- The dots/circles -->
     <div style="text-align:center">
         <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
         <span class="dot" onclick="currentSlide(3)"></span>
         <span class="dot" onclick="currentSlide(4)"></span>
     </div>

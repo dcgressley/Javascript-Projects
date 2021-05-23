@@ -12,6 +12,11 @@
   display: none;
 }
 
+.img {
+  width: 400px;
+  height: 300px;
+}
+
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;

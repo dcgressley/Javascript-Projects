@@ -1,3 +1,7 @@
+var c = document.getElementById("myCan");
+var ctx = c.getContext("2d");
+ctx.font = "100px Arial";
+ctx.strokeText("Bon Appétit", 125, 225);
 function foodFunction() {
     var foodOutput;
     var foods = document.getElementById("foodInput").value;

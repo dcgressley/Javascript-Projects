@@ -1,8 +1,22 @@
+//declaring a variable that gets set to the canvas from our html doc
 var c = document.getElementById("myCan");
 var ctx = c.getContext("2d");
+//creating and defining a gradient background
+var grd = ctx.createLinearGradient(0, 0, 700, 0);
+grd.addColorStop(0, "red");
+grd.addColorStop(1, "blue");
+
+
+//implementing this background into the canvas
+ctx.fillStyle = grd;
+ctx.fillRect(0, 0, 750, 375);
+
+//creating some strokeText within the canvas
 ctx.font = "100px Arial";
+ctx.strokeStyle = "white";
 ctx.strokeText("Bon Appétit", 125, 225);
-function foodFunction() {
+
+function foodFunction() { //Declaring a function that will contain our switch statement for evaluating our favorite types of food!
     var foodOutput;
     var foods = document.getElementById("foodInput").value;
     var foodString = " is a great choice!";

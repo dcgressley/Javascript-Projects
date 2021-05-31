@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Best Online TicTacToe!</title>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel="stylesheet" type="text/css" href="css/game.css">
+    <script src="js/tictactoe.js" defer></script>
+</head>
+
+<body id='body'>
+
+    <h1>TIC TAC TOE GAME</h1>
+    <h3>by Daniel Gressley</h3>
+    <!-- This container is needed to overlay our canvas over our table. -->
+    <div class="center-container">
+        <canvas id="win=lines" width="608" height="608"></canvas>
+        <table>
+            <tr>
+                <td id="0" onclick='placeXOrO("0")'></td>
+                <td id="1" onclick='placeXOrO("1")'></td>
+                <td id="2" onclick='placeXOrO("2")'></td>
+            </tr>
+            <tr>
+                <td id="0" onclick='placeXOrO("0")'></td>
+                <td id="1" onclick='placeXOrO("1")'></td>
+                <td id="2" onclick='placeXOrO("2")'></td>
+            </tr>
+            <tr>
+                <td id="0" onclick='placeXOrO("0")'></td>
+                <td id="1" onclick='placeXOrO("1")'></td>
+                <td id="2" onclick='placeXOrO("2")'></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
